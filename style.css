@@ -1,0 +1,13 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Logo styling (optional extra rules) */
+nav img {
+  transition: transform 0.2s ease-in-out;
+}
+nav img:hover {
+  transform: scale(1.05);
+}
