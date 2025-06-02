@@ -6,9 +6,9 @@ const cors = require('cors');
 const path = require('path');
 
 // Routes
-const authRoutes = require('./rebooked-backend/rebooked-backend/routes/auth');
-const bookRoutes = require('./rebooked-backend/rebooked-backend/routes/books');
-const contactRoutes = require('./rebooked-backend/rebooked-backend/routes/contact');
+const authRoutes = require('./routes/auth');
+const bookRoutes = require('./routes/books');
+const contactRoutes = require('./routes/contact');
 
 const app = express();
 
